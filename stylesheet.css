@@ -59,7 +59,7 @@ a:link{
 .carousel img{
 
 	border-radius: 10px !important;
-	height: 700px;
+	max-height: 700px;
 }
 .card-deck {
 	
