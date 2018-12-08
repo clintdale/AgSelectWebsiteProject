@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body{
-	background-color: beige !important;
+	background-color: white !important;
 }
 header {
 	
@@ -15,7 +15,7 @@ header {
 
 }
 
-nav{
+/*nav{
 	text-align: left;
 	margin-top: 20px;
 	color: white;
@@ -33,8 +33,12 @@ a:link{
 }
 .navcol{
 	display: flex;
-}
+}*/
 
+
+.navbar{
+	opacity: .8;
+}
 
 
 .container-fluid{
