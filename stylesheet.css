@@ -6,40 +6,33 @@ body{
 	background-color: white !important;
 	font-family: 'Playfair Display', serif !important;
 }
-header {
-	
-	padding: 20px;
-	text-align: center;
-	text-decoration: none;
-	list-style: none;
-	background-color: green;
 
+
+#home-section{
+	background-image:url("img/premiumproducts.jpeg");
+	min-height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-/*nav{
-	text-align: left;
-	margin-top: 20px;
+.dark-overlay{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 700px;
+}
+.home-inner{
+	padding-top: 200px;
 	color: white;
 }
-nav li{
-	display: inline-block;
-	padding: 20px 20px;
-}
-nav li a{
-	color: white;
-}
 
-a:link{
-	text-decoration: none;
-}
-.navcol{
-	display: flex;
-}*/
 
 
 .navbar{
 	border-bottom: 2px solid green;
-	opacity: .8;
+	opacity: .8 !important;
 	color: black;
 
 }
@@ -71,14 +64,15 @@ a:link{
 
 .carousel{
 
-	border-radius: 10px !important;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-	margin-top: 20px !important;	
+	border-radius: 10px 0 !important;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
+/*	margin-top: 20px !important;	
 	margin-left: 20px !important;
-	margin-right: 20px !important;
+	margin-right: 20px !important;*/
 }
-.carousel img{
-
+.carousel-inner img{
+	width: 700px;
+	max-height: 700px;
 	border-radius: 10px !important;
 	
 }
@@ -97,6 +91,18 @@ a:link{
 	
 }
 
+#contact h2 h4{
+	padding-bottom: 20px;
+}
+
+#contact li{
+	padding: 10px !important;
+}
+#contact li a{
+	color: green;
+}
+
+
 
 .card-deck {
 	
@@ -104,4 +110,28 @@ a:link{
 }
 .card{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+#footer{
+	padding:20px;
+	border-top: 2px solid green;
+	border-bottom: 1px solid green: 
+}
+#footer img{
+	width: 200px
+}
+#footer li{
+	padding:10px !important;
+
+}
+#footer li a{
+	color: green;
+
+}
+
+#footer p{
+	text-align: center !important;
+}
+footer p{
+	margin:0 !important;
 }
