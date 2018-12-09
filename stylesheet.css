@@ -4,6 +4,7 @@
 }
 body{
 	background-color: white !important;
+	font-family: 'Playfair Display', serif !important;
 }
 header {
 	
@@ -37,8 +38,23 @@ a:link{
 
 
 .navbar{
+	border-bottom: 2px solid green;
 	opacity: .8;
+	color: black;
+
 }
+
+.collapse ul> li > a{
+	font-size: 1.3em;
+	color: black !important;
+}
+
+.active, .collapse ul> li > a:hover{
+	color: green !important;
+	
+}
+
+
 
 
 .container-fluid{
@@ -54,6 +70,7 @@ a:link{
 }
 
 .carousel{
+
 	border-radius: 10px !important;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 	margin-top: 20px !important;	
@@ -63,8 +80,24 @@ a:link{
 .carousel img{
 
 	border-radius: 10px !important;
-	max-height: 700px;
+	
 }
+
+.carousel-caption{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+	background: rgba(0,0,0,0.4);
+	
+}
+
+
 .card-deck {
 	
 	margin:30px 30px !important;
