@@ -5,7 +5,10 @@
 body{
 	background-color: white !important;
 	font-family: 'Playfair Display', serif !important;
+	color: black !important;
 }
+
+
 
 
 #home-section{
@@ -30,10 +33,13 @@ body{
 
 
 
+
 .navbar{
+	margin: 0 !important;
 	border-bottom: 2px solid green;
 	opacity: .8 !important;
 	color: black;
+
 
 }
 
@@ -64,8 +70,10 @@ body{
 
 .carousel{
 
-	border-radius: 10px 0 !important;
-	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;*/
+	/*border-radius: 10px 0 !important;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+	border-top: 2px solid green !important;
+	border-bottom: : 2px solid green !important;
 /*	margin-top: 20px !important;	
 	margin-left: 20px !important;
 	margin-right: 20px !important;*/
@@ -73,7 +81,7 @@ body{
 .carousel-inner img{
 	width: 700px;
 	max-height: 700px;
-	border-radius: 10px !important;
+	/*border-radius: 0 10px !important;*/
 	
 }
 
