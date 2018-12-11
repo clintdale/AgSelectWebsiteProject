@@ -2,10 +2,13 @@
 	padding: 0;
 	margin: 0;
 }
-body{
+html, body{
+
+	overflow-x: hidden;
 	background-color: white !important;
 	font-family: 'Playfair Display', serif !important;
 	color: black !important;
+
 }
 
 
@@ -54,16 +57,6 @@ body{
 }
 
 
-
-
-.container-fluid{
-	background-color: green;
-	border-bottom: blue 3px solid;
-	opacity: 0.8;
-
-	/*margin: 0 !important;
-	padding: 0 !important;*/
-}
 .socialIcons{
 	font-size: 1.9em;
 }
@@ -72,17 +65,19 @@ body{
 
 	/*border-radius: 10px 0 !important;*/
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-	border-top: 2px solid green !important;
-	border-bottom: : 2px solid green !important;
-/*	margin-top: 20px !important;	
-	margin-left: 20px !important;
-	margin-right: 20px !important;*/
+	border-top: 1px solid black !important;
+	/*border-bottom: : 2px solid green !important;*/
+
 }
-.carousel-inner img{
-	width: 700px;
-	max-height: 700px;
+.carousel{
+	width: 100%;
+
 	/*border-radius: 0 10px !important;*/
 	
+}
+.carousel img{
+	width: 100%;
+	max-height: 600px;
 }
 
 .carousel-caption{
@@ -111,14 +106,18 @@ body{
 }
 
 
-
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
 .card-deck {
 	
 	margin:30px 30px !important;
 }
-.card{
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+
+.card-deck img{
+	height: 200px !important;
 }
+
 
 #footer{
 	padding:20px;
@@ -143,3 +142,10 @@ body{
 footer p{
 	margin:0 !important;
 }
+
+
+
+
+
+
+
