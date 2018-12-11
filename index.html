@@ -51,8 +51,8 @@
 					<div class="container">
 						<div class="col-md-12 col-sm-12">
 							<div class="showcase-front">
-								<h1 class="text-center p-5"> <span class="text-success font-weight-bold">Welcome</span> to AgSelect</h1>
-								<p class="lead">Building businesses and not brands, this brand is an exciting opportunity for us and we hope will be a value to producers and the marketplace! We encourage you to share with your friends and hope to see you all along this journey</p>
+								<h1 class="text-center p-5 display-3"> <span class="text-success font-weight-bold">Welcome</span> to AgSelect</h1>
+								<p class="lead text-center blockqoute" style="font-size: 1.5em;">Building businesses and not brands</p>
 							</div>
 						</div>
 						
@@ -227,13 +227,7 @@
 				</div>
 			</div>
 		</div>
-
-
-
 		<!-- blog -->
-
-
-
 		<section id="latests-section" class="bg-light">
 			<div class="container">
 				<div class="container">
@@ -247,24 +241,23 @@
 				</div>
 			</div>
 		</section>
-
 		<div class="container">
 			<div class="card-columns">
-				<div class="card-front">
+				<div class="card card-blog">
 					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Card title that wraps to a new line</h5>
 						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 				</div>
-				<div class="card-front">
+				<div class="card card-blog">
 					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Card title that wraps to a new line</h5>
 						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 				</div>
-				<div class="card-front">
+				<div class="card card-blog2">
 					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Card title</h5>
@@ -272,29 +265,54 @@
 						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 					</div>
 				</div>
-				<div class="card border-success text-body text-center ">
+				<div class="card card-blog2">
+					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Card title</h5>
+						<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					</div>
+				</div>
+				<div class="card card-blog3">
 					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Card title that wraps to a new line</h5>
 						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 				</div>
-				<div class="card border-success text-body text-center ">
+				<div class="card card-blog3">
 					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h5 class="card-title">Card title that wraps to a new line</h5>
 						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 				</div>
-				<div class="card border-success text-body text-center ">
-					<img class="card-img-top" src="img/hello.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h5 class="card-title">Card title that wraps to a new line</h5>
-						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					</div>
-				</div>
+				
 			</div>
+			
 		</div>
+		<div class="container text-center">
+			<button type="button" class="btn btn-success" >Load More</button>
+		</div>
+		<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Message Sent</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        We will contact you as soon as posible! Thank You.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 		<!-- contact form -->
 		<section id="contactUs" class="bg-light">
 			<div class="container">
@@ -331,7 +349,7 @@
 								<label>Message:</label>
 								<textarea class="form-control" type="text" name="" value="" placeholder="Your message"></textarea>
 							</div>
-							<button class="btn btn-default">Submit</button>
+							<button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">Submit</button>
 						</form>
 					</div>
 					<div class="col-md-6 col-sm-6">
@@ -361,7 +379,7 @@
 			<footer class="text-center">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-4 col-sm-4">
+						<div style="padding-bottom: 20px !important;" class="col-md-4 col-sm-4">
 							<a href="https://www.greenfundsolutions.com" target="_blank">
 							<img src="img/greenfundsolutions.png" alt="greenfundsolutions"></a>
 						</div>
@@ -414,7 +432,7 @@
 		window.sr = ScrollReveal();
 		sr.reveal('.navbar', {
 		duration: 2000,
-		origin:'bottom'
+		origin:'top'
 		});
 		sr.reveal('.showcase-front', {
 		duration: 2000,
@@ -431,22 +449,30 @@
 		origin:'right',
 		distance:'300px'
 		});
-		sr.reveal('.showcase-btn', {
+		sr.reveal('.btn', {
 		duration: 2000,
 		delay: 2000,
 		origin:'bottom'
 		});
 		sr.reveal('#produce-section', {
 		duration: 2000,
-		origin:'bottom'
+		origin:'bottom',
+		viewFactor: 0.2
 		});
 		sr.reveal('#liquor-section', {
 		duration: 2000,
-		origin:'bottom'
+		origin:'bottom',
+		viewFactor: 0.2
 		});
 		sr.reveal('#premium-section', {
 		duration: 2000,
-		origin:'bottom'
+		origin:'bottom',
+		viewFactor: 0.2
+		});
+		sr.reveal('#latests-section', {
+		duration: 2000,
+		origin:'bottom',
+		viewFactor: 0.2
 		});
 		sr.reveal('.card-left', {
 		duration: 2000,
@@ -465,7 +491,29 @@
 		distance:'300px',
 		viewFactor: 0.2
 		});
+		//blog for cards
+		sr.reveal('.card-blog', {
+		duration: 2000,
+		origin:'left',
+		distance:'300px',
+		viewFactor: 0.2
+		});
+		sr.reveal('.card-blog2', {
+		duration: 2000,
+		delay: 1000,
+		origin:'bottom',
+		distance:'300px',
+		viewFactor: 0.2
+		});
+		sr.reveal('.card-blog3', {
+		duration: 2000,
+		delay: 1500,
+		origin:'right',
+		distance:'300px',
+		viewFactor: 0.2
+		});
 		</script>
+		<!-- smooth scrolling -->
 		<script>
 		$(function() {
 		// Smooth Scrolling
