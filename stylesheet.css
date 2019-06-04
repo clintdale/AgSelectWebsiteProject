@@ -16,6 +16,7 @@ html, body{
 
 #home-section{
 	background-image:url("img/premiumproducts.jpeg");
+	background-position: center bottom;
 	height: 100vh;
 	
 	background-size: cover;
